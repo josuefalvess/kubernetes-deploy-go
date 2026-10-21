@@ -12,5 +12,5 @@ spec:
     spec:
       containers:
       - name: go-app
-        image: josuefalvess/kubernetes-deploy-go:latest
+        image: josuefalves/kubernetes-deploy-go:8ba02b6d914f2f4248bf9b031b8e49488aea0601
         ports: [{containerPort: 80}]
